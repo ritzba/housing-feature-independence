@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Ames Housing Data
-
-=======
 # The Effect of Housing Features on Sale Price in Ames, IA
 
 ## Problem Statement
@@ -101,9 +97,10 @@ For this data, lasso models perform better than ordinary linear regression or ri
 
 Finally, we extract the features with the coefficients of highest magnitude (positive or negative).  
 
+Ultimately, our models are slightly underfit, with training R2 score of 0.88 and test R2 score of 0.84.  Attempts to tighten the model resulted in extreme overfitting.
+
 ##  Results
 
 The most significant variables in which a homeowner can practically change the value of her home are adding extra rooms (approx $12k per extra room), adding an extra bathroom (approx $8400 per extra bath) and adding an extra fireplace (approx $7600 per fireplace).
 
 Other significant, but less practical, effects on sale price include exterior quality ($11k per move in quality by 1 point on a scale of 10) and change in neighborhood ($10.8k for Northridge Heights, $9300 for Stone Brook, and $7500 for Northridge).
->>>>>>> c597e4f38a5c2e52bb0680867ef06b9f2bf7209b
